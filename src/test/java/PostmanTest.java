@@ -12,7 +12,7 @@ public class PostmanTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", org.hamcrest.Matchers.equalTo("Hello"));
+                .body("data", org.hamcrest.Matchers.equalTo("Hi"));
     }
 }
 
